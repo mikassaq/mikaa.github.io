@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.bonjour {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100px;
+  color: darksalmon ;
+  margin-left: 50px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+    
+}
+
+.Miran {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: darksalmon ;
+    
+}
+
+.subtitle {
+    margin-left: 50px;
+    font-size: 35px;
+    
+}
+
+.Im {
+    font-family: monospace;
+    font-size: 30px;
+}
+
+
+.foil{
+	opacity: 2;
+	width:100%;
+	height:100%;
+	clip-path: url(#myClip);
+	background: linear-gradient(
+		48deg,
+		#e3c1f4,
+		#d9d7ed,
+		#dff7f1,
+		#acf0ff,
+		#e3c1f4,
+		#d9d7ed,
+		#dff7f1,
+		#acf0ff,
+		#e3c1f4
+	);
+	animation: foil 8s ease infinite;
+	background-size:200% 200%;
+}
+
+@keyframes foil {
+	0% {
+		background-position: 84% 0;
+	}
+	50% {
+		background-position: 17% 100%;
+	}
+	100% {
+		background-position: 84% 0;
+	}
+}
+
+.icon {
+    
+    color: burlywood;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mom1 {
+	display: flex;
+	justify-content: center;
+
+}
+
+.snap {
+	width: 400px;
+	
+}
+
+.mom1baby2 {
+	margin-left: 70px;
+}
+
+.mom1baby {
+	margin-right: 90px;
+	border: 1px gainsboro solid;
+	height: 330px;
+	margin-top: 70px;
+	padding-bottom: 100px;
+	border-radius: 30px;
+	padding-right: 30px;
+	background: rgba(255, 255, 255, 0.2);
+	transition: 10s;
+	
+
+
+}
+
+
+
+.abmea {
+	text-decoration: none;
+	border: none;
+	background: none;
+	margin-top: 10px;
+	transition: 300ms;
+	font-size: 19px;
+	color: darksalmon;
+
+}
+
+.abmea:hover {
+	font-size: 23px;
+	color: lightsalmon;
+	
+}
+
+.abmehr {
+	margin: auto;
+	margin-left: 663px;
+	width: 100px;
+}
+
+.abmehr:hover {
+	width: 110px;
+}
+
+.txtabme {
+	font-family: monospace;
+	text-align: center;
+	font-size: 40px;
+}
